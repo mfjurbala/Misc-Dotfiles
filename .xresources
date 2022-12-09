@@ -2,7 +2,8 @@
 !*.depth: 32
 
 ! special
-*.background: [95]#1E1E2E
+*.background: #1E1E2E
+URxvt*background: [95]#1E1E2E
 *.foreground: #CDD6F4
 *.cursorColor: #F5E0DC
 

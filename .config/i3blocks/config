@@ -1,0 +1,3 @@
+[time]
+command=date "+%D%l:%M %p"
+interval=30
