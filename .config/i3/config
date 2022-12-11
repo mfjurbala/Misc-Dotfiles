@@ -51,8 +51,8 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
-bindsym $mod+r exec "rofi -modi run -show run"
-bindsym $mod+f exec "rofi -modi filebrowser -show filebrowser"
+bindsym $mod+r exec "rofi -modi drun,run -show drun -theme catppuccin-mocha"
+bindsym $mod+f exec "rofi -modi filebrowser -show filebrowser -theme catppuccin-mocha"
 
 bindsym $mod+s split h
 #bindsym $mod+s toggle split
