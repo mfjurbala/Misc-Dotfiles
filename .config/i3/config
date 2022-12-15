@@ -15,9 +15,10 @@ set_from_resource $blue i3wm.color4 #0000ff
 set_from_resource $magenta i3wm.color5 #ff00ff
 set_from_resource $cyan i3wm.color6 #00ffff
 set_from_resource $white i3wm.color7 #ffffff
+set $purple #351FEB
 
 # class                  border   bg       text   ind.     child_border
-client.focused           $blue    $blue    $bg    $blue    $blue
+client.focused           $purple    $purple    $fg    $purple    $purple
 client.focused_inactive  $black   $black   $bg    $black   $black
 client.unfocused         $bg      $bg      $black $bg      $bg
 client.urgent            $magenta $magenta $bg    $magenta $magenta
@@ -96,8 +97,8 @@ bar {
   colors {
     background $bg
     statusline $fg
-    focused_workspace $blue $blue $bg
-    inactive_workspace $bg $bg $black
+    focused_workspace $purple $purple $fg
+    inactive_workspace $bg $bg $fg
     urgent_workspace $magenta $magenta $bg
   }
   status_command i3blocks

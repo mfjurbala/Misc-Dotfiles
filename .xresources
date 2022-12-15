@@ -28,8 +28,8 @@ URxvt*background: [95]#1E1E2E
 *.color12: #89B4FA
 
 ! magenta
-*.color5: #F5C2E7
-*.color13: #F5C2E7
+*.color5: #CBA6F7
+*.color13: #CBA6F7
 
 ! cyan
 *.color6: #94E2D5
